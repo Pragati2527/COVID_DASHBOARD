@@ -1,0 +1,125 @@
+@import url('sansation_bold.woff');
+*{
+	margin: 0;
+	padding: 0;
+box-sizing: border-box;
+}
+body {
+background-image: url(cworld.jpg);
+background-size:  cover;
+height: 600px;
+background-position: center;
+font-family: Lucida Grande;
+font-weight: bold;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+margin: 0;
+}
+select:focus, input:focus, button:focus {
+	outline: 0;
+}
+.container h1 {
+	text-align: center;
+	margin: 50px 0px;
+}
+
+.container1 {
+    	width: 500px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			background-color: #fff;
+			transform: translate(-50%, -50%);
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 1px 1px 20px #ee5253;
+			opacity: 0.8px;
+}
+
+header {
+height: 65px;
+width: 100%;
+background-color: rgba(34, 49, 52, 0.9);
+position :fixed;
+top: 0px;
+z-index: 10;
+}
+.logo {
+width: 120px;
+height: 50px;
+margin-top: 10px;
+margin-left: 20px;
+color: white;
+
+}
+
+.header-left {
+float: left;
+}
+
+.header-right {
+float: right;
+margin-right: 25px;
+margin-right: 20px;
+}
+
+.header-right a {
+line-height: 65px;
+padding: 0 25px;
+color: white;
+display: block;
+float: left;
+transition: all 0.5s;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  margin-right: 10px;
+  display: none;
+}
+
+.header-right a:hover {
+background-color: rgba(255, 255, 255, 0.3);
+}
+a {
+text-decoration: none;
+}
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+
+}
+/* If the screen size is 601px or more, set the font-size of <div> to 80px */
+@media only screen and (min-width: 601px) {
+  div.example {
+    font-size: 80px;
+  }
+}
+
+/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
