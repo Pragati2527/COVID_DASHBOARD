@@ -2,22 +2,20 @@
 If you are in the healthcare industry, you may be fielding lots of extra patient inquiries due to the COVID-19. One way to reduce the 
 amount of chats your agents receive and more quickly qualify and assist your patients is to use a bot. We’ve created a COVID-19 Symptom 
 Checker bot specifically for this scenario, using the Chat Bot API.
-We are developing an all in one web based application that allows user to check whether a person is suffering from COVID-19 or not. 
-By using a chat bot that interact with users and ask some predefined question regarding to their health , previous travel history and some
+We are developing an all in one web based application that allows user to check whether a person is suffering from COVID-19 or not. By using a chat bot that interact with users and ask some predefined question regarding to their health , previous travel history and some
 other questions to diagnose COVID-19 and at the end tells the probability of having COVID-19.The most important factor in preventing the
-spread of Virus locally is to power the citizens with the right information and taking precautions .Our application will provide all these
-relevant information to the user. 
+spread of Virus locally is to power the citizens with the right information and taking precautions .Our application will provide all these relevant information to the user. 
 In addition to this, it’ll provides other features like: 
 
 1.Case Tracker : User can check the latest updates of WHO regarding to this pandemic.
 
-2.WHO Updates : 
+2.WHO Updates : Latest news on coronavirus disease (COVID-19).
 
-3.Queries Resolver : Queries related to COVID-19 
+3.Queries Resolver : Queries related to COVID-19 .
 
-4.Indian State/UTs Helpline No.: All states/UTs helpline numbers are available here for the user's convenience
+4.Indian State/UTs Helpline No.: All states/UTs helpline numbers are available here for the user's convenience.
 
-5.Myth busters : It will provide Coronavirus disease (COVID-19) related all the  advice to the public 
+5.Myth busters : It will provide Coronavirus disease (COVID-19) related all the  advice to the public .
 
 6.Hospitals Near Me : It tell the nearest hospitals from the user. Also if after using the chatbot application,if the users find his/her
 case is at risk level or requires doctor advice so the user can use this feature . 
