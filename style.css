@@ -38,11 +38,13 @@
 	.mob-nav{
 		display: block!important;
 	}
+	#nav{
+		display: none!important;
+	}
 }
 
+
 .mob-nav{
-	position: fixed;
-	top:0;
 	width: 100%;
 	display: none;
 	background-color: black;
@@ -133,6 +135,13 @@
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bolder;
 }
+@media(max-width:500px){
+	.text h1{
+		font-size: 30px;
+	}
+}
+
+
 .bkgrnd{
 	position: relative;
 	width: 100%;
