@@ -9,10 +9,15 @@ spread of Virus locally is to power the citizens with the right information and 
 relevant information to the user. 
 In addition to this, it’ll provides other features like: 
 1.Case Tracker : User can check the latest updates of WHO regarding to this pandemic.
+
 2.WHO Updates : 
+
 3.Queries Resolver : Queries related to COVID-19 
+
 4.Indian State/UTs Helpline No.: All states/UTs helpline numbers are available here for the user's convenience
+
 5.Myth busters : It will provide Coronavirus disease (COVID-19) related all the  advice to the public 
+
 6.Hospitals Near Me : It tell the nearest hospitals from the user. Also if after using the chatbot application,if the users find his/her
 case is at risk level or requires doctor advice so the user can use this feature . 
 
