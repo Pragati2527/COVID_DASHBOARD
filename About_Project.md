@@ -30,7 +30,7 @@ case is at risk level or requires doctor advice so the user can use this feature
  
  Features:
  1. It is all in one site which will provide all the information that a visitor wants to know about today’s CORONA.
- 2. Accessible to all Users ü 
+ 2. Accessible to all Users  
  3.This website is user friendly easy to handle 
  4. Well Planned Information Architecture 
  5. Contrasting Color Scheme A good application usability helps to provide a seamless experience for visitors & we have developed 
