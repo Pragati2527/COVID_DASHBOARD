@@ -1,41 +1,121 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>A-Z of Covid-19</title>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css'>
-  <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A-Z of Covid-19</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
-<body>
 
-  <header>
-        <div class="container">
-          <div class="header-left">
+  <body>
+      <!-- navbar for windows -->
+      <div id="nav">
+        <div class="inner-nav">
+          <div class="nav-logo">
             <img class="logo" src="logo1.jpeg">
           </div>
-          <body>
-            <div class="background-div">
-             <a href="/a/url" class="href"></a>
-            </div>
-          </body>
-          <div id="example-link">
-  <a href="#"></a>
-</div>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-          <span class="fa fa-bars menu-icon"></span>
-
-          <div class="header-right">
-
-            <a href="https://www.uneca.org/covid-19/pages/dashboard">Case Tracker</a>
-            <a href="https://www.who.int/westernpacific/emergencies/covid-19/news-covid-19">WHO Updates</a>
-            <a href="https://www.investindia.gov.in/bip">Queries Resolver</a>
-            <a href="https://timesofindia.indiatimes.com/india/coronavirus-in-india-helpline-numbers-for-states-and-uts/articleshow/74604458.cms">Indian State/UTs Helpline No.</a>
-            <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters">Myth Buster</a>
-            <a href="https://www.google.com/maps/search/nearest+hospitals+near+me/@28.6925971,77.1218023,12.75z">Hospitals Near Me</a>
+          <div class="nav-content">
+            <div><a href="https://www.bing.com/covid">Case Tracker</a></div>
+            <div><a href="https://www.who.int/westernpacific/emergencies/covid-19/news-covid-19">WHO Updates</a></div>
+            <div><a href="https://www.investindia.gov.in/bip">Queries Resolver</a></div>
+            <div><a href="https://timesofindia.indiatimes.com/india/coronavirus-in-india-helpline-numbers-for-states-and-uts/articleshow/74604458.cms">Indian State/UTs Helpline No</a></div>
+            <div><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters">Myth Buster</a></div>
+            <div><a href="https://www.google.com/maps/search/nearest+hospitals+near+me/@28.6925971,77.1218023,12.75z">Hospitals Near Me</a></div>
           </div>
         </div>
-      </header>
-</body>
-</html>
+      </div>
 
+      <!-- mobile navbar -->
+
+      <div class="mob-nav">
+        <div class="inner-nav">
+          <div class="nav-logo">
+            <img class="logo" src="logo1.jpeg">
+          </div>
+          <div id="burger"> &#9776;</div>
+        </div>
+      </div>
+
+      <div id="mob-navbar">
+        <div id="close">&#10060;</div>
+        <div class="mob-inner-nav">
+          <div class="nav-items">
+            <div><a href="https://www.bing.com/covid"> >  Case Tracker</a></div>
+            <div><a href="https://www.who.int/westernpacific/emergencies/covid-19/news-covid-19">>  WHO Updates</a></div>
+            <div><a href="https://www.investindia.gov.in/bip">>  Queries Resolver</a></div>
+            <div><a href="https://timesofindia.indiatimes.com/india/coronavirus-in-india-helpline-numbers-for-states-and-uts/articleshow/74604458.cms">>  Indian State/UTs Helpline No</a></div>
+            <div><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters">>  Myth Buster</a></div>
+            <div><a href="https://www.google.com/maps/search/nearest+hospitals+near+me/@28.6925971,77.1218023,12.75z">>  Hospitals Near Me</a></div>
+          </div>
+        </div>
+      </div>
+
+      
+
+
+      <div>
+        <div>
+          <div>
+            <div>
+              <div>
+                <div>
+                  <div>
+                    <div>
+                      <div>
+                        <div>
+                          <div>
+                            <div>
+                              <div>
+                                <div>
+                                  <div>
+                                    <div>
+                                      <div>
+                                        <div>
+                                          <div>
+                                            <script>
+                                              let burger = document.getElementById('burger')
+                                      
+                                              let close = document.getElementById('close')
+                                      
+                                              let mobNav = document.getElementById('mob-navbar')
+                                      
+                                              burger.addEventListener('click',()=>{
+                                                mobNav.style.height = '100%'
+                                              })
+                                      
+                                              close.addEventListener("click",()=>{
+                                                mobNav.style.height = '0%'
+                                              })
+                                      
+                                            </script>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- corona -->
+      <div class="text">
+        <h1>COVID-19 Tracker</h1>
+      </div>
+      <!-- tracker -->
+      <div class="bkgrnd">
+        <img src="new.gif" alt="corona tracker">
+      </div>
+  </body>
+</html>
