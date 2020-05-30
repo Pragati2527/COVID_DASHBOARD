@@ -23,7 +23,7 @@ case is at risk level or requires doctor advice so the user can use this feature
 
  Technical Description: 
  Web page has designed by using HTML, JavaScript and CSS for interaction and voice bot Algorithm all are written in Python. Flask will   be used to create a local server and Build a REST API for the interface between web page and Python algorithm. 
- When user hit the voice bot option then a request will be called to API and after completion of questions session (ie. POST) the final 
+ When user hit the voice bot option then a request will be called to API and after completion of questions session(ie.POST) the final 
  output will be return by the Python server to the Web Page. We are also trying to make this cloud based web application in which user
  can access it any device across the world. 
  
