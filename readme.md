@@ -8,6 +8,7 @@ other questions to diagnose COVID-19 and at the end tells the probability of hav
 spread of Virus locally is to power the citizens with the right information and taking precautions .Our application will provide all these
 relevant information to the user. 
 In addition to this, it’ll provides other features like: 
+
 1.Case Tracker : User can check the latest updates of WHO regarding to this pandemic.
 
 2.WHO Updates : 
