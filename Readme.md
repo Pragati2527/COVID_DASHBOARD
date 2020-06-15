@@ -39,6 +39,5 @@ can access it any device across the world.
  Technology stack used: HTML,CSS , JavaScript, Python, Web API 
  Software Used: Atom and Bracket 
  
- Dashboard link : file:///C:/Users/Pragati%20Chauhan/Desktop/hack/index.html
  #IndiaFightCorona COVID-19
  
