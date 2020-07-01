@@ -1,4 +1,4 @@
-# hackAIACTR
+# hackDASHBOARD
 If you are in the healthcare industry, you may be fielding lots of extra patient inquiries due to the COVID-19. One way to reduce the 
 amount of chats your agents receive and more quickly qualify and assist your patients is to use a bot. We’ve created a COVID-19 Symptom 
 Checker bot specifically for this scenario, using the Chat Bot API.
